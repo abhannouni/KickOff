@@ -1,323 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1707986048594" clover="3.2.0">
-  <project timestamp="1707986048594" name="All files">
-    <metrics statements="158" coveredstatements="47" conditionals="35" coveredconditionals="8" methods="55" coveredmethods="13" elements="248" coveredelements="68" complexity="0" loc="158" ncloc="158" packages="54" files="67" classes="67"/>
-    <package name="shopease">
+<coverage generated="1708898715588" clover="3.2.0">
+  <project timestamp="1708898715588" name="All files">
+    <metrics statements="244" coveredstatements="74" conditionals="70" coveredconditionals="20" methods="81" coveredmethods="15" elements="395" coveredelements="109" complexity="0" loc="244" ncloc="244" packages="55" files="70" classes="70"/>
+    <package name="KickOff">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="App.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\App.js">
+      <file name="App.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\App.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro">
+    <package name="KickOff..expo.metro">
       <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="polyfill.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\polyfill.js">
+      <file name="polyfill.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\polyfill.js">
         <metrics statements="1" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="2"/>
       </file>
-      <file name="polyfill.native.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\polyfill.native.js">
+      <file name="polyfill.native.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\polyfill.native.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.assert">
+    <package name="KickOff..expo.metro.externals.assert">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\assert\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\assert\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.async_hooks">
+    <package name="KickOff..expo.metro.externals.async_hooks">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\async_hooks\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\async_hooks\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.buffer">
+    <package name="KickOff..expo.metro.externals.buffer">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\buffer\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\buffer\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.child_process">
+    <package name="KickOff..expo.metro.externals.child_process">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\child_process\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\child_process\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.cluster">
+    <package name="KickOff..expo.metro.externals.cluster">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\cluster\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\cluster\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.console">
+    <package name="KickOff..expo.metro.externals.console">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\console\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\console\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.constants">
+    <package name="KickOff..expo.metro.externals.constants">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\constants\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\constants\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.crypto">
+    <package name="KickOff..expo.metro.externals.crypto">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\crypto\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\crypto\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.dgram">
+    <package name="KickOff..expo.metro.externals.dgram">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\dgram\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\dgram\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.diagnostics_channel">
+    <package name="KickOff..expo.metro.externals.diagnostics_channel">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\diagnostics_channel\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\diagnostics_channel\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.dns">
+    <package name="KickOff..expo.metro.externals.dns">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\dns\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\dns\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.domain">
+    <package name="KickOff..expo.metro.externals.domain">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\domain\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\domain\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.events">
+    <package name="KickOff..expo.metro.externals.events">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\events\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\events\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.fs">
+    <package name="KickOff..expo.metro.externals.fs">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\fs\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\fs\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.fs.promises">
+    <package name="KickOff..expo.metro.externals.fs.promises">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\fs\promises\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\fs\promises\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.http">
+    <package name="KickOff..expo.metro.externals.http">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\http\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\http\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.http2">
+    <package name="KickOff..expo.metro.externals.http2">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\http2\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\http2\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.https">
+    <package name="KickOff..expo.metro.externals.https">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\https\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\https\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.inspector">
+    <package name="KickOff..expo.metro.externals.inspector">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\inspector\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\inspector\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.module">
+    <package name="KickOff..expo.metro.externals.module">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\module\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\module\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.net">
+    <package name="KickOff..expo.metro.externals.net">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\net\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\net\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.os">
+    <package name="KickOff..expo.metro.externals.os">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\os\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\os\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.path">
+    <package name="KickOff..expo.metro.externals.path">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\path\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\path\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.perf_hooks">
+    <package name="KickOff..expo.metro.externals.perf_hooks">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\perf_hooks\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\perf_hooks\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.process">
+    <package name="KickOff..expo.metro.externals.process">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\process\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\process\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.punycode">
+    <package name="KickOff..expo.metro.externals.punycode">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\punycode\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\punycode\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.querystring">
+    <package name="KickOff..expo.metro.externals.querystring">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\querystring\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\querystring\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.readline">
+    <package name="KickOff..expo.metro.externals.readline">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\readline\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\readline\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.repl">
+    <package name="KickOff..expo.metro.externals.repl">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\repl\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\repl\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.stream">
+    <package name="KickOff..expo.metro.externals.stream">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\stream\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\stream\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.string_decoder">
+    <package name="KickOff..expo.metro.externals.string_decoder">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\string_decoder\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\string_decoder\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.timers">
+    <package name="KickOff..expo.metro.externals.timers">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\timers\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\timers\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.tls">
+    <package name="KickOff..expo.metro.externals.tls">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\tls\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\tls\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.trace_events">
+    <package name="KickOff..expo.metro.externals.trace_events">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\trace_events\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\trace_events\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.tty">
+    <package name="KickOff..expo.metro.externals.tty">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\tty\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\tty\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.url">
+    <package name="KickOff..expo.metro.externals.url">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\url\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\url\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.util">
+    <package name="KickOff..expo.metro.externals.util">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\util\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\util\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.v8">
+    <package name="KickOff..expo.metro.externals.v8">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\v8\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\v8\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.vm">
+    <package name="KickOff..expo.metro.externals.vm">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\vm\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\vm\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.wasi">
+    <package name="KickOff..expo.metro.externals.wasi">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\wasi\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\wasi\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.worker_threads">
+    <package name="KickOff..expo.metro.externals.worker_threads">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\worker_threads\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\worker_threads\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.externals.zlib">
+    <package name="KickOff..expo.metro.externals.zlib">
       <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\externals\zlib\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\externals\zlib\index.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.shims.react-native-web.dist.cjs.exports.AppRegistry">
+    <package name="KickOff..expo.metro.shims.react-native-web.dist.cjs.exports.AppRegistry">
       <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="AppContainer.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\shims\react-native-web\dist\cjs\exports\AppRegistry\AppContainer.js">
+      <file name="AppContainer.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\shims\react-native-web\dist\cjs\exports\AppRegistry\AppContainer.js">
         <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -326,9 +326,9 @@
         <line num="13" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.shims.react-native-web.dist.cjs.exports.BackHandler">
+    <package name="KickOff..expo.metro.shims.react-native-web.dist.cjs.exports.BackHandler">
       <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\shims\react-native-web\dist\cjs\exports\BackHandler\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\shims\react-native-web\dist\cjs\exports\BackHandler\index.js">
         <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
@@ -337,189 +337,287 @@
         <line num="10" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.shims.react-native-web.dist.exports.AppRegistry">
+    <package name="KickOff..expo.metro.shims.react-native-web.dist.exports.AppRegistry">
       <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="AppContainer.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\shims\react-native-web\dist\exports\AppRegistry\AppContainer.js">
+      <file name="AppContainer.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\shims\react-native-web\dist\exports\AppRegistry\AppContainer.js">
         <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="0" type="stmt"/>
         <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="9" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease..expo.metro.shims.react-native-web.dist.exports.BackHandler">
+    <package name="KickOff..expo.metro.shims.react-native-web.dist.exports.BackHandler">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\.expo\metro\shims\react-native-web\dist\exports\BackHandler\index.js">
+      <file name="index.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\.expo\metro\shims\react-native-web\dist\exports\BackHandler\index.js">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="2" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="shopease.components">
-      <metrics statements="11" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
-      <file name="CourseInCart.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\components\CourseInCart.js">
+    <package name="KickOff.api">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Player.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\api\Player.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="data.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\api\data.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="KickOff.components">
+      <metrics statements="24" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="DropdownWindow.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\components\DropdownWindow.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="PlayerCard.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\components\PlayerCard.js">
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
-      <file name="CourseItem.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\components\CourseItem.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="18" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
-      </file>
-      <file name="CustomButton.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\components\CustomButton.js">
-        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-      </file>
-      <file name="Icons.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\components\Icons.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="36" type="stmt"/>
-      </file>
-    </package>
-    <package name="shopease.data">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="coursesData.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\data\coursesData.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+      <file name="TeamCard.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\components\TeamCard.js">
+        <metrics statements="18" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="shopease.redux">
-      <metrics statements="25" coveredstatements="8" conditionals="13" coveredconditionals="2" methods="9" coveredmethods="1"/>
-      <file name="action.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\redux\action.js">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+    <package name="KickOff.redux">
+      <metrics statements="50" coveredstatements="21" conditionals="18" coveredconditionals="3" methods="16" coveredmethods="2"/>
+      <file name="action.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\redux\action.js">
+        <metrics statements="28" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-      </file>
-      <file name="reducer.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\redux\reducer.js">
-        <metrics statements="18" coveredstatements="4" conditionals="13" coveredconditionals="2" methods="6" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="1" type="cond" truecount="1" falsecount="3"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="44" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
       </file>
-      <file name="store.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\redux\store.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="shopease.routes">
-      <metrics statements="19" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="5"/>
-      <file name="CartStack.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\routes\CartStack.js">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="reducer.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\redux\reducer.js">
+        <metrics statements="21" coveredstatements="5" conditionals="18" coveredconditionals="3" methods="2" coveredmethods="1"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="CourseStack.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\routes\CourseStack.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-      </file>
-      <file name="Drawer.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\routes\Drawer.js">
-        <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-      </file>
-      <file name="NavPage.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\routes\NavPage.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-      </file>
-      <file name="PayementStack.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\routes\PayementStack.js">
-        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="shopease.screens">
-      <metrics statements="41" coveredstatements="10" conditionals="10" coveredconditionals="1" methods="26" coveredmethods="4"/>
-      <file name="Cart.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\screens\Cart.js">
-        <metrics statements="11" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="13"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
       </file>
-      <file name="Course.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\screens\Course.js">
-        <metrics statements="11" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="4"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+      <file name="store.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\redux\store.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="KickOff.redux.thunks">
+      <metrics statements="26" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
+      <file name="dataThunks.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\redux\thunks\dataThunks.js">
+        <metrics statements="26" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
-        <line num="19" count="18" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="18" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
       </file>
-      <file name="CourseDetails.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\screens\CourseDetails.js">
-        <metrics statements="10" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+    </package>
+    <package name="KickOff.routes">
+      <metrics statements="25" coveredstatements="18" conditionals="12" coveredconditionals="11" methods="10" coveredmethods="5"/>
+      <file name="Drawer.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\Drawer.js">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="FavoriteStack.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\FavoriteStack.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="JoueursStack.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\JoueursStack.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="MatchsStack.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\MatchsStack.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="NavPage.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\NavPage.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="Tabs.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\routes\Tabs.js">
+        <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="11" methods="3" coveredmethods="3"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="KickOff.screens">
+      <metrics statements="56" coveredstatements="20" conditionals="26" coveredconditionals="6" methods="30" coveredmethods="5"/>
+      <file name="Favorite.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\screens\Favorite.js">
+        <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+      <file name="JoueurDetails.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\screens\JoueurDetails.js">
+        <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+      </file>
+      <file name="Joueurs.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\screens\Joueurs.js">
+        <metrics statements="10" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+      <file name="MatchDetails.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\screens\MatchDetails.js">
+        <metrics statements="16" coveredstatements="2" conditionals="16" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
-      </file>
-      <file name="Payements.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\screens\Payements.js">
-        <metrics statements="9" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+      </file>
+      <file name="Matchs.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\screens\Matchs.js">
+        <metrics statements="18" coveredstatements="12" conditionals="10" coveredconditionals="6" methods="9" coveredmethods="5"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="shopease.styles">
+    <package name="KickOff.styles">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Colors.js" path="C:\Users\hanno\OneDrive\Bureau\shopease\styles\Colors.js">
+      <file name="Colors.js" path="C:\Users\hanno\OneDrive\Bureau\git_pro\KickOff\styles\Colors.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>

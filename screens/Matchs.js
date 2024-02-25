@@ -26,7 +26,7 @@ const Matchs = ({ navigation }) => {
   const leagues = ['All', 'Live'];
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID='matchs-container'>
       <Text style={styles.heading}>Matchs</Text>
 
       {/* League Dropdown */}
