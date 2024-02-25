@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import Colors from '../styles/Colors';
@@ -12,11 +12,19 @@ const MatchDetails = ({ navigation, route }) => {
   const logo = (id) => `https://api.sofascore.app/api/v1/team/${id}/image`;
   const matchDetails = useSelector((state) => state.matchDetails.event);
 
-  useEffect(() => {
-    dispatch(fetchMatchDetailsThunk(Id));
-  }, []);
+  // useEffect(() => {
+  //   dispatch(fetchMatchDetailsThunk(Id));
+  // }, [dispatch]);
 
-  const formattedDate = isPast(new Date(matchDetails.startTimestamp * 1000))
+  useLayoutEffect(() => {
+    dispatch(fetchMatchDetailsThunk(Id));
+  }, [dispatch]);
+
+
+  console.log(matchDetails?.startTimestamp);
+  console.log(matchDetails?.incidents);
+
+  const formattedDate = isPast(new Date(1282288 * 1000))
     ? 'Ended'
     : format(new Date(matchDetails.startTimestamp * 1000), 'MMMM dd, yyyy HH:mm');
 
@@ -39,39 +47,34 @@ const MatchDetails = ({ navigation, route }) => {
                 <Image source={{ uri: logo(matchDetails.awayTeam.id) }} style={styles.teamLogo} />
               </View>
             </View>
-            <View style={styles.contentDis}>
-              <Text style={styles.matchEvent}>
-                <Ionicons name="football" size={15} color="#00d800c2" /> {matchDetails.homeTeam.name} '{' '}
-                {matchDetails.currentPeriodStartTimestamp}
-              </Text>
-              <Text style={styles.matchEvent}>
-                <Ionicons name="football" size={15} color="#00d800c2" /> {matchDetails.awayTeam.name} '{' '}
-                {matchDetails.currentPeriodStartTimestamp}
-              </Text>
-            </View>
-            <View style={styles.contentDis}>
-              <Text style={styles.matchEvent}>
-                <MaterialCommunityIcons name="card" size={14} color="yellow" /> {matchDetails.homeTeam.name}{' '}
-                {matchDetails.currentPeriodStartTimestamp}
-              </Text>
-              <Text style={styles.matchEvent}>
-                <MaterialCommunityIcons name="card" size={14} color="red" /> {matchDetails.awayTeam.name}{' '}
-                {matchDetails.currentPeriodStartTimestamp}
-              </Text>
-            </View>
-            <Text style={styles.detailsText}>Status: {matchDetails.status.description}</Text>
             {matchDetails.status.code === 100 && (
               <>
-                <Text style={styles.detailsText}>Goal Scorers:</Text>
-                <View style={styles.goalScorers}>
-                  {matchDetails?.incidents
-                    .filter((incident) => incident.type === 'goal')
-                    .map((goal) => (
-                      <Text key={goal.id} style={styles.goalScorerText}>
-                        {goal.team.name} - {goal.player.name} ({goal.time}')
-                      </Text>
-                    ))}
-                </View>
+                {matchDetails?.incidents
+                  .filter((incident) => incident.incidentType === 'goal' || incident.incidentType === 'card')
+                  .map((goal) => (
+                    <View key={goal.id} style={styles.contentDis}>
+                      {goal.isHome ? (
+                        <Text style={styles.matchEventHome}>
+                          {goal.incidentType === 'goal' ? (
+                            <Ionicons name="football" size={15} color="#00d800c2" />
+                          ) : (
+                            <MaterialCommunityIcons name={goal.incidentType} size={15} color={goal.incidentClass} />
+                          )}
+                          {matchDetails.homeTeam.name} {goal.player.name} ({goal.time}')
+                        </Text>
+                      ) : (
+                        <Text style={styles.matchEventA} >
+                          {goal.incidentType === 'goal' ? (
+                            <Ionicons name="football" size={15} color="#00d800c2" />
+                            
+                          ) : (
+                            <MaterialCommunityIcons name={goal.incidentType} size={15} color={goal.incidentClass} />
+                          )}
+                          {matchDetails.awayTeam.name} {goal.player.name} ({goal.time}')
+                        </Text>
+                      )}
+                    </View>
+                  ))}
               </>
             )}
           </View>
@@ -140,6 +143,8 @@ const styles = StyleSheet.create({
   matchEvent: {
     fontWeight: '300',
     fontSize: 12,
+    flexDirection : 'row',
+    justifyContent: 'flex-end',
   },
   goalScorers: {
     marginTop: 10,

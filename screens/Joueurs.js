@@ -1,60 +1,40 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 import Colors from '../styles/Colors';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchPlayersThunk } from '../redux/thunks/dataThunks';
+import { FlatList } from 'react-native-gesture-handler';
+import PlayerCard from '../components/PlayerCard';
 
 
-const Joueurs = () => {
+
+const Joueurs = ({ navigation }) => {
+  const dispatch = useDispatch();
+  const players = useSelector((state) => state.players);
+  useEffect(() => {
+    dispatch(fetchPlayersThunk());
+  }, [dispatch]);
+  console.log(players);
   return (
     <View style={styles.cardContainer}>
-      <View style={styles.cardHeader}>
-        <View style={styles.avatarContainer}>
-          <Image
-            style={styles.avatarImage}
-            source={{ uri: 'https://static.footballtransfers.com/resources/players/506100.png' }}
+      <Text style={styles.heading}>Joueurs</Text>
+      <FlatList
+        data={players.records}
+        keyExtractor={(item, index) => index.toString()}
+        renderItem={({ item }) => (
+          <PlayerCard
+            playerName={item.player_name}
+            team={item.team_name}
+            age={item.age}
+            avatarUri={item.player_picture}
+            viewDetails={() =>
+              navigation.navigate('JoueurDetails',{
+                item: item
+              })
+            }
           />
-          <View style={{ marginLeft: 8 }}>
-            <Text style={{ color: 'white', fontSize: 16, fontWeight: 'bold' }}>Jude Bellingham</Text>
-            <Text style={{ color: '#ccc' }}>Real Madrid</Text>
-          </View>
-        </View>
-        <View style={{ alignItems: 'flex-end' }}>
-          <Text style={{ color: 'white', fontSize: 16 }}>20 years</Text>
-        </View>
-      </View>
-      <View style={styles.cardContent}>
-        <View style={styles.skillPotentialContainer}>
-          <View style={styles.skillPotentialItem}>
-            <Text style={{ color: '#ccc' }}>Skill</Text>
-            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>81.0</Text>
-              <View style={[styles.badgeContainer, { padding: 4 }]}>
-                <Text style={{ color: 'white' }}>Good</Text>
-              </View>
-            </View>
-          </View>
-          <View style={styles.skillPotentialItem}>
-            <Text style={{ color: '#ccc' }}>Potential</Text>
-            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>98.4</Text>
-              <View style={[styles.badgeContainer, { padding: 4 }]}>
-                <Text style={{ color: 'white' }}>Good</Text>
-              </View>
-            </View>
-          </View>
-        </View>
-      </View>
-      <View style={styles.cardFooter}>
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-          <View style={styles.teamAvatarContainer}>
-            <Image
-              style={styles.teamAvatarImage}
-              source={{ uri: 'https://static.footballtransfers.com/resources/teams/48.png' }}
-            />
-            <Text style={{ color: 'white', marginLeft: 8 }}>M (C), DM (RL)</Text>
-          </View>
-          <Text style={{ color: 'white', fontWeight: 'bold' }}>€140.1M</Text>
-        </View>
-      </View>
+        )}
+      />
     </View>
   );
 };
@@ -71,6 +51,12 @@ const styles = StyleSheet.create({
     elevation: 5,
     paddingTop: 16,
     paddingBottom: 16,
+  },
+  heading: {
+    color: Colors.textWhite,
+    fontSize: 20,
+    textAlign: 'center',
+    padding: 10,
   },
   cardHeader: {
     flexDirection: 'row',

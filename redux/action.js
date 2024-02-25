@@ -37,3 +37,23 @@ export const fetchMatchDetailsFailure = (error) => {
         payload: error,
     };
 }
+
+export const fetchPlayers = (players) => {
+    return {
+        type: "FETCH_PLAYERS",
+        payload: players,
+    };
+}
+
+export const fetchPlayersRequest = () => {
+    return {
+        type: "FETCH_PLAYERS_REQUEST",
+    };
+}
+
+export const fetchPlayersFailure = (error) => {
+    return {
+        type: "FETCH_PLAYERS_FAILURE",
+        payload: error,
+    };
+}

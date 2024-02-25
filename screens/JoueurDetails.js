@@ -1,24 +1,27 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet,TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import Colors from '../styles/Colors';
 
 
-const JoueurDetails = () => {
+const JoueurDetails = ({ navigation, route }) => {
+  const player = route.params.item;
+
   return (
     <View style={styles.cardContainer}>
+      <TouchableOpacity style={styles.footerBottom} onPress={() => navigation.goBack()}>
+        <Ionicons name="chevron-back-sharp" size={30} color="white" />
+      </TouchableOpacity>
       <View style={styles.cardHeader}>
         <View style={styles.avatarContainer}>
-          <Image
-            style={styles.avatarImage}
-            source={{ uri: 'https://static.footballtransfers.com/resources/players/506100.png' }}
-          />
+          <Image style={styles.avatarImage} source={{ uri: player.player_picture }} />
           <View style={{ marginLeft: 8 }}>
-            <Text style={{ color: 'white', fontSize: 16, fontWeight: 'bold' }}>Jude Bellingham</Text>
-            <Text style={{ color: '#ccc' }}>Real Madrid</Text>
+            <Text style={{ color: 'white', fontSize: 16, fontWeight: 'bold' }}>{player.player_name}</Text>
+            <Text style={{ color: '#ccc' }}>{player.team_name}</Text>
           </View>
         </View>
         <View style={{ alignItems: 'flex-end' }}>
-          <Text style={{ color: 'white', fontSize: 16 }}>20 years</Text>
+          <Text style={{ color: 'white', fontSize: 16 }}>{player.age} years</Text>
         </View>
       </View>
       <View style={styles.cardContent}>
@@ -26,7 +29,7 @@ const JoueurDetails = () => {
           <View style={styles.skillPotentialItem}>
             <Text style={{ color: '#ccc' }}>Skill</Text>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>81.0</Text>
+              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>{player.sci_skill_smg}</Text>
               <View style={[styles.badgeContainer, { padding: 4 }]}>
                 <Text style={{ color: 'white' }}>Good</Text>
               </View>
@@ -35,7 +38,7 @@ const JoueurDetails = () => {
           <View style={styles.skillPotentialItem}>
             <Text style={{ color: '#ccc' }}>Potential</Text>
             <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>98.4</Text>
+              <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold', marginRight: 8 }}>{player.sci_potential_smg}</Text>
               <View style={[styles.badgeContainer, { padding: 4 }]}>
                 <Text style={{ color: 'white' }}>Good</Text>
               </View>
@@ -46,18 +49,17 @@ const JoueurDetails = () => {
       <View style={styles.cardFooter}>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
           <View style={styles.teamAvatarContainer}>
-            <Image
-              style={styles.teamAvatarImage}
-              source={{ uri: 'https://static.footballtransfers.com/resources/teams/48.png' }}
-            />
-            <Text style={{ color: 'white', marginLeft: 8 }}>M (C), DM (RL)</Text>
+            <Image style={styles.teamAvatarImage} source={{ uri: player.team_picture }} />
+            <Text style={{ color: 'white', marginLeft: 8 }}>{player.position_short_name}</Text>
           </View>
-          <Text style={{ color: 'white', fontWeight: 'bold' }}>€140.1M</Text>
+          <Text style={{ color: 'white', fontWeight: 'bold' }}>{player.estimated_value}</Text>
         </View>
       </View>
     </View>
   );
 };
+
+
 const styles = StyleSheet.create({
   cardContainer: {
     flex: 1,
@@ -69,8 +71,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 2,
     elevation: 5,
-    paddingTop: 16,
-    paddingBottom: 16,
+    paddingTop: 30,
+    padding: 30,
   },
   cardHeader: {
     flexDirection: 'row',

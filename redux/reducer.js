@@ -4,6 +4,7 @@
 const initialState = {
     matches: [],
     matchDetails: {},
+    players: [],
     selectedLeague: 'All',
     searchQuery: '',
     leagues: [],
@@ -31,7 +32,6 @@ const rootreducer = (state = initialState, action) => {
                 error: action.payload,
             }
         case 'FETCH_MATCH_DETAILS':
-            console.log(action.payload);
             return {
                 ...state,
                 matchDetails: action.payload,
@@ -43,6 +43,23 @@ const rootreducer = (state = initialState, action) => {
                 loading: true,
             }
         case 'FETCH_MATCH_DETAILS_FAILURE':
+            return {
+                ...state,
+                loading: false,
+                error: action.payload,
+            }
+        case 'FETCH_PLAYERS':
+            return {
+                ...state,
+                players: action.payload,
+                loading: false,
+            }
+        case 'FETCH_PLAYERS_REQUEST':
+            return {
+                ...state,
+                loading: true,
+            }
+        case 'FETCH_PLAYERS_FAILURE':
             return {
                 ...state,
                 loading: false,

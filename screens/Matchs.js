@@ -14,7 +14,7 @@ const Matchs = ({ navigation }) => {
   const matches = useSelector(state => state.matches);
 
   useEffect(() => {
-    dispatch(fetchMatchesThunk('2024-02-24'));
+    dispatch(fetchMatchesThunk('2024-02-25'));
   }, [dispatch]);
 
   const [selectedLeague, setSelectedLeague] = useState("All");
