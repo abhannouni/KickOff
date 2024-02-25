@@ -1,27 +1,51 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import Colors from '../styles/Colors';
-import { format } from 'date-fns';
+import { format, set } from 'date-fns';
+import { Ionicons } from '@expo/vector-icons';
+import { useDispatch,useSelector } from 'react-redux';
+import { addFavorite, removeFavorite } from '../redux/action';
 
 
 
 
 
 const TeamCard = ({ match, viewDetails }) => {
-  
-  const logo = (id) => {
-    return `https://api.sofascore.app/api/v1/team/${id}/image`;
+  const dispatch = useDispatch();
+  const [star, setStar] = useState("star-outline");
+  const favorite = useSelector((state) => state.Favorites);
+
+  const addToFavorite = () => {
+    if (star === "star-outline") {
+      dispatch(addFavorite(match));
+      setStar("star");
+    } else {
+      dispatch(removeFavorite(match.id));
+      setStar("star-outline");
+    }
   };
+
+  useEffect(() => {
+    const isFavorite = favorite.some((item) => item.id === match.id);
+    setStar(isFavorite ? "star" : "star-outline");
+  }, [favorite, match]);
+
+  const logo = (id) => `https://api.sofascore.app/api/v1/team/${id}/image`;
 
   const date = match.startTimestamp ? new Date(match.startTimestamp * 1000) : null;
   const formattedDate = date ? format(date, 'yyyy-MM-dd HH:mm:ss') : 'No Date';
+
   return (
     <TouchableOpacity style={styles.scoreboard} onPress={viewDetails}>
       <View style={styles.scoreboardContainer}>
-        <View style={styles.scoreboardBasics}>
-          <Text style={styles.label}></Text> 
-          <Text style={styles.label}>{formattedDate}</Text>
-      <Text style={styles.label}>{match.status.description}</Text>
+        <View style={styles.FavBoard}>
+          <View></View>
+          <View style={styles.scoreboardBasics}>
+            <Text style={styles.label}></Text>
+            <Text style={styles.label}>{formattedDate}</Text>
+            <Text style={styles.label}>{match.status.description}</Text>
+          </View>
+          <Ionicons onPress={addToFavorite} name={star} size={25} color='black' />
         </View>
 
         <View style={styles.scoreboardTeams}>
@@ -62,6 +86,11 @@ const styles = StyleSheet.create({
   scoreboardBasics: {
     flexDirection: 'column',
     justifyContent: 'center',
+    alignItems: 'center',
+  },
+  FavBoard: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
   label: {

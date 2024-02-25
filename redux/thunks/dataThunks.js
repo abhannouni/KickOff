@@ -1,6 +1,6 @@
 import APIPLAYER from '../../api/Player';
 import API from '../../api/data';
-import { fetchMatches, fetchMatchesrequest, fetchMatchesfailure,fetchMatchDetails, fetchMatchDetailsRequest, fetchMatchDetailsfailure, fetchPlayersRequest, fetchPlayers, fetchPlayersFailure  } from '../action';
+import { fetchMatches, fetchMatchesrequest, fetchMatchesfailure,fetchMatchDetails, fetchMatchDetailsRequest, fetchMatchDetailsfailure, fetchPlayersRequest, fetchPlayers, fetchPlayersFailure, fetchMatchesLive, fetchMatchesrequestLive, fetchMatchesfailureLive  } from '../action';
 
 
 export const fetchMatchesThunk = (date) => async (dispatch) => {
@@ -10,6 +10,16 @@ export const fetchMatchesThunk = (date) => async (dispatch) => {
         dispatch(fetchMatches(response.data));
     } catch (error) {
         dispatch(fetchMatchesfailure(error));
+    }
+}
+
+export const fetchMatchLiveThunk = () => async (dispatch) => {
+    try {
+        dispatch(fetchMatchesrequestLive());
+        const response = await API.get(`sport/football/events/live`);
+        dispatch(fetchMatchesLive(response.data));
+    } catch (error) {
+        dispatch(fetchMatchesfailureLive(error));
     }
 }
 

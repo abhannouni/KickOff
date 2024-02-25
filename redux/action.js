@@ -57,3 +57,36 @@ export const fetchPlayersFailure = (error) => {
         payload: error,
     };
 }
+
+export const addFavorite = (favorite) => {
+    return {
+        type: "ADD_FAVORITE",
+        payload: favorite,
+    };
+}
+
+export const removeFavorite = (id) => {
+    return {
+        type: "REMOVE_FAVORITE",
+        payload: id,
+    };
+}
+export const fetchMatchesLive = (matches) => {
+    return {
+        type: "FETCH_MATCHES_LIVE",
+        payload: matches,
+    };
+}
+
+export const fetchMatchesrequestLive = () => {
+    return {
+        type: "FETCH_MATCHES_REQUEST_LIVE",
+    };
+}
+
+export const fetchMatchesfailureLive = (error) => {
+    return {
+        type: "FETCH_MATCHES_FAILURE_LIVE",
+        payload: error,
+    };
+}

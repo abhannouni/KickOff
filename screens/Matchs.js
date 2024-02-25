@@ -3,7 +3,7 @@ import { View, Text, TextInput, StyleSheet, FlatList } from 'react-native';
 import {Picker} from '@react-native-picker/picker'; 
 import TeamCard from '../components/TeamCard';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchMatchesThunk } from '../redux/thunks/dataThunks';
+import { fetchMatchesThunk, fetchMatchLiveThunk } from '../redux/thunks/dataThunks';
 import Colors from '../styles/Colors';
 
 const Matchs = ({ navigation }) => {
@@ -13,13 +13,17 @@ const Matchs = ({ navigation }) => {
   const loading = useSelector(state => state.loading);
   const matches = useSelector(state => state.matches);
 
-  useEffect(() => {
-    dispatch(fetchMatchesThunk('2024-02-25'));
-  }, [dispatch]);
-
   const [selectedLeague, setSelectedLeague] = useState("All");
+  useEffect(() => {
+    if(selectedLeague === "All"){
+      dispatch(fetchMatchesThunk('2024-02-25'));
+    }else if(selectedLeague === "Live"){
+      dispatch(fetchMatchLiveThunk('live'));
+    }
+  }, [dispatch, selectedLeague]);
 
-  const leagues = ['All', 'Premier League', 'La Liga', 'Bundesliga', 'Serie A', 'Ligue 1'];
+
+  const leagues = ['All', 'Live'];
 
   return (
     <View style={styles.container}>
@@ -39,21 +43,20 @@ const Matchs = ({ navigation }) => {
         </Picker>
       </View>
 
-      {/* Search Bar
-      <TextInput
-        style={styles.searchInput}
-        placeholder="Search matches..."
-        onChangeText={(text) => setSearchQuery(text)}
-
-      /> */}
-
       {/* Loading */}
-      {loading && <Text>Loading...</Text>}
+      {loading ? (
+        <Text>Loading...</Text>
+      ) : (
+        <>
+          {/* Match List */}
+          {matches.error && <Text>{matches.error}</Text>}
 
-      {/* Match List */}
-      {matches.error && <Text>{matches.error}</Text>}
+          {matches.length === 0 && <Text>No matches found</Text>}
 
-      {matches.length === 0 && <Text>No matches found</Text>} 
+          {/* Render your match list here */}
+          {/* ... */}
+        </>
+      )}
 
       <FlatList
         data={matches.events}

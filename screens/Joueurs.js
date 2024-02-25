@@ -14,7 +14,6 @@ const Joueurs = ({ navigation }) => {
   useEffect(() => {
     dispatch(fetchPlayersThunk());
   }, [dispatch]);
-  console.log(players);
   return (
     <View style={styles.cardContainer}>
       <Text style={styles.heading}>Joueurs</Text>
